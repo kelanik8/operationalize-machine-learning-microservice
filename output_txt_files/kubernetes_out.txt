@@ -1,0 +1,10 @@
+$ ./run_kubernetes.sh
+Flag --generator has been deprecated, has no effect and will be removed in the future.
+Error from server (AlreadyExists): pods "prediction" already exists
+NAME               READY   STATUS             RESTARTS   AGE
+apidemo            0/1     ImagePullBackOff   0          29h
+flaskskearlndemo   0/1     ImagePullBackOff   0          29h
+prediction         1/1     Running            0          19m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
